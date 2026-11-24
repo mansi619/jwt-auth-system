@@ -1,0 +1,87 @@
+
+# ==========================================
+# Maven
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# ==========================================
+# Java compiled files
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# ==========================================
+# Local application configuration
+# ==========================================
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# Spring Tool Suite / Eclipse
+# ==========================================
+.springBeans
+.sts4-cache/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+*.iml
+*.iws
+out/
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# Operating system files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Test and coverage reports
+# ==========================================
+test-output/
+coverage/
+jacoco.exec
